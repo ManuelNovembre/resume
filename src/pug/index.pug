@@ -1,0 +1,240 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Manuel Novembre
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.13.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Clarence Taylor
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/avatar.png', alt='')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') Manuel Novembre
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experiences
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Formation
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Compétence
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Centre d'intérêts
+                    //- li.nav-item
+                    //-     a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Manuel 
+                        span.text-primary Novembre
+                    .subheading.mb-5
+                        | software craftman
+                    p.lead.mb-5
+                        | ile-de-france 
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/manuel-novembre/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/ManuelNovembre')
+                            i.fab.fa-github
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software craftman
+                            .subheading.mb-3 La combe du lion vert 
+                            p
+                                | Société Générale : BDD TDD docker, Kubernetes, Jenkins, Airflow.
+                                | IBM: BDD TDD DDD, CQRS, Architecture hexagonal.                        
+                        .flex-shrink-0
+                            span.text-primary Avril 2018 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Fullstack Developer
+                            .subheading.mb-3 Chronopost  
+                        .flex-shrink-0
+                            span.text-primary Octobtre 2017 - Fevrier 2018
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Fullstack Developer
+                            .subheading.mb-3 Praxedo
+                        .flex-shrink-0
+                            span.text-primary Juillet 2017 - Septembre 2017
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Fullstack Developer
+                            .subheading.mb-3 Infotel 
+                        .flex-shrink-0
+                            span.text-primary Fevrier 2017 - Mai 2017
+
+            hr.m-0
+
+            // Formation
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Formation
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Formation Craftsmanship 
+                            .subheading.mb-3 La combe du lion vert
+                            div 
+                        .flex-shrink-0
+                            span.text-primary Avril 2018
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Diplôme Ingénieur 
+                            .subheading.mb-3 EFREI Paris Sud
+                        .flex-shrink-0
+                            span.text-primary 2013-2016
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Mobilité internationale 
+                            .subheading.mb-3 Séjour académique à l’Asia Pacific University of Technology & Innovation, Kuala Lumpur Malaisie
+                        .flex-shrink-0
+                            span.text-primary 2013
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Langage de programmation et outils 
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-docker
+
+                    .subheading.mb-3 Pratiques
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | TDD/BDD/DDD
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            |  Clean code
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | SOLID
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Design patterns
+
+                    .subheading.mb-3 Langue
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fab.fa-flag-usa
+                            | courant - 890 au TOIEC
+            hr.m-0
+
+            // Centre d'intérêts
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 centre d'interêts
+                    p
+                        | football
+                    p.mb-0
+                        | photographie
+
+            hr.m-0
+
+            // Awards
+            //- section#awards.resume-section
+            //-     .resume-section-content
+            //-         h2.mb-5 Awards & Certifications
+            //-         ul.fa-ul.mb-0
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | Google Analytics Certified Developer
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | Mobile Web Specialist - Google Certification
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st 
+            //-                 | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st 
+            //-                 | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 2
+            //-                 sup nd 
+            //-                 | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st 
+            //-                 | Place - James Buchanan High School - Hackathon 2006
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 3
+            //-                 sup rd 
+            //-                 | Place - James Buchanan High School - Hackathon 2005
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
